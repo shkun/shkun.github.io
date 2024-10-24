@@ -809,6 +809,83 @@ Banner Style
 }
 
 
+/* 
+---------------------------------------------
+Services Style
+--------------------------------------------- 
+*/
+
+.services .item {
+  background-color: #fafafa;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.services .item img {
+  border-radius: 1000px;
+}
+
+.services .item p {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.services .item span.category {
+  background-color: #fbd9cf;
+  font-weight: 500;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #1e1e1e;
+  padding: 5px 12px;
+  display: inline-block;
+  margin-top: 25px;
+}
+
+.services .item h4 {
+  font-size: 19px;
+  margin: 25px 0px;
+}
+
+.services .item h4 a {
+  color: #1e1e1e;
+}
+
+.services .item ul li {
+  display: inline-block;
+  font-size: 15px;
+  color: #4a4a4a;
+  margin-right: 20px;
+}
+
+.services .item ul li span {
+  font-weight: 600;
+  color: #1e1e1e;
+}
+
+.services .item ul {
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.services .item h6 {
+  font-size: 20px;
+  color: #f35525;
+  margin-top: 6px;
+  display: inline-block;
+  float: right;
+  margin-top: 30px;
+}
+
+.services .item .main-button {
+  text-align: center;
+  margin-top: 50px;
+}
+
 
 /* 
 ---------------------------------------------
@@ -1124,6 +1201,9 @@ Properties Style
 
 .properties .item {
   background-color: #fafafa;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
   border-radius: 10px;
   padding: 30px;
   margin-bottom: 30px;
@@ -1182,6 +1262,7 @@ Properties Style
 
 .properties .item .main-button {
   text-align: center;
+  margin-top: 50px;
 }
 
 
