@@ -1201,23 +1201,23 @@ Properties Style
 
 .properties .item {
   background-color: #fafafa;
-  border-color: black;
-  border-width: 1px;
-  border-style: solid;
   border-radius: 10px;
   padding: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .properties .item img {
   border-radius: 10px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
 }
 
 .properties .item span.category {
   background-color: #fbd9cf;
   font-weight: 500;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 12px;
   color: #1e1e1e;
   padding: 5px 12px;
   display: inline-block;
@@ -1225,7 +1225,8 @@ Properties Style
 }
 
 .properties .item h4 {
-  font-size: 19px;
+  font-size: 15px;
+  text-align: center;
   margin: 25px 0px;
 }
 
@@ -1235,24 +1236,22 @@ Properties Style
 
 .properties .item ul li {
   display: inline-block;
-  font-size: 15px;
+  font-size: 13px;
   color: #4a4a4a;
   margin-right: 20px;
 }
 
 .properties .item ul li span {
-  font-weight: 600;
+  font-weight: 500;
   color: #1e1e1e;
 }
 
 .properties .item ul {
   border-bottom: 1px solid #eaeaea;
-  margin-bottom: 30px;
-  padding-bottom: 30px;
 }
 
 .properties .item h6 {
-  font-size: 20px;
+  font-size: 16px;
   color: #f35525;
   margin-top: 6px;
   display: inline-block;
