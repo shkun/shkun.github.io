@@ -78,9 +78,6 @@ https://templatemo.com/tm-591-villa-agency
                     <ul class="nav">
                       <li><a href="index.html">Home</a></li>
                       <li><a href="properties.html" class="active">Products</a></li>
-                      <!-- <li><a href="property-details.html">Property Details</a></li>
-                      <li><a href="contact.html">Contact Us</a></li>
-                      <li><a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a></li> -->
                   </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -93,7 +90,7 @@ https://templatemo.com/tm-591-villa-agency
   </header>
   <!-- ***** Header Area End ***** -->
 
-  <div class="page-heading header-text">
+  <div id="header" class="page-heading header-text">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -104,7 +101,8 @@ https://templatemo.com/tm-591-villa-agency
     </div>
   </div>
 
-  <div class="section properties">
+  <!-- ***** Products and Footer Area ***** -->
+  <div id="products" class="section properties">
     <div class="container">
       <ul class="properties-filter">
         <li>
@@ -123,90 +121,12 @@ https://templatemo.com/tm-591-villa-agency
           <a href="#!" data-filter=".dcr">Decoration</a>
         </li>
       </ul>
-      <div class="row properties-box">
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 seat">
-          <div class="item">
-            <img src="assets/images/chair.jpg" alt="">
-            <span class="category">Seating</span>
-            <h6>$1</h6>
-            <h4><a href="property-details.html">Chair</a></h4>
-            <ul>
-              <li>Chair Color : <span>White</span></li>
-              <li>Cover Color : <span>N/A</span></li>
-              <li>Sash Color : <span>N/A</span></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 seat">
-          <div class="item">
-            <img src="assets/images/chair-cover.jpg" alt="">
-            <span class="category">Seating</span>
-            <h6>$2</h6>
-            <h4><a href="property-details.html">Chair With Cover</a></h4>
-            <ul>
-              <li>Chair Color : <span>White</span></li>
-              <li>Cover Color : <span>White</span></li>
-              <li>Sash Color : <span>N/A</span></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 seat">
-          <div class="item">
-            <img src="assets/images/chair-cover-sash.jpg" alt="">
-            <span class="category">Seating</span>
-            <h6>$2.25</h6>
-            <h4><a href="property-details.html">Chair With Cover And Sash</a></h4>
-            <ul>
-              <li>Chair Color : <span>White</span></li>
-              <li>Cover Color : <span>White</span></li>
-              <li>Sash Color : <span>Gold</span></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 tbl">
-          <div class="item">
-            <img src="assets/images/table-round-48-inch.jpg" alt="">
-            <span class="category">Table</span>
-            <h6>$8</h6>
-            <h4><a href="property-details.html">Table (Round) 48"</a></h4>
-            <ul>
-              <li>Table Color : <span>White</span></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac dcr">
-          <div class="item">
-            <img src="assets/images/cake-stands.jpg" alt="">
-            <span class="category">Decoration</span>
-            <h6>Set $20 (Each $8)</h6>
-            <h4><a href="property-details.html">Cake Stands</a></h4>
-            <ul>
-              <li>Color : <span>White</span></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 srv">
-          <div class="item">
-            <img src="assets/images/chafer.jpg" alt="">
-            <span class="category">Serving</span>
-            <h6>$8</h6>
-            <h4><a href="property-details.html">Chafer</a></h4>
-            <ul>
-              <li>Material : <span>Steel</span></li>
-            </ul>
-          </div>
-        </div>
+      <div id="productsrow" class="row properties-box">
+        <!-- Products are loaded from JSON dynamically -->
       </div>
     </div>
   </div>
 
-  <footer>
-    <div class="container">
-      <div class="col-lg-12">
-        <p>Copyright © Five Guys Doodads, Ltd. All rights reserved. </p>
-      </div>
-    </div>
-  </footer>
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
@@ -216,6 +136,7 @@ https://templatemo.com/tm-591-villa-agency
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/counter.js"></script>
   <script src="assets/js/custom.js"></script>
+  <!-- <script src="assets/js/products.js"></script> -->
 
   </body>
 </html>

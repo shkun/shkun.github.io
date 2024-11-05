@@ -1,0 +1,106 @@
+[
+	{
+		"name": "Chair",
+		"category": "Seating",
+		"filter": "seat",
+		"image_name": "chair.jpg",
+		"list_price": "$1",
+		"attributes" : [
+			{
+				"property": "Chair Color",
+				"value": "White"
+			}, 
+			{
+				"property": "Cover Color",
+				"value": "N/A"
+			}, 
+			{
+				"property": "Sash Color",
+				"value": "N/A"
+			}
+		]            
+	},
+	{
+		"name": "Chair With Cover",
+		"category": "Seating",
+		"filter": "seat",
+		"image_name": "chair-cover.jpg",
+		"list_price": "$2",
+		"attributes" : [
+			{
+				"property": "Chair Color",
+				"value": "White"
+			}, 
+			{
+				"property": "Cover Color",
+				"value": "White"
+			}, 
+			{
+				"property": "Sash Color",
+				"value": "N/A"
+			}
+		]            
+	},
+	{
+		"name": "Chair With Cover And Sash",
+		"category": "Seating",
+		"filter": "seat",
+		"image_name": "chair-cover-sash.jpg",
+		"list_price": "$2.25",
+		"attributes" : [
+			{
+				"property": "Chair Color",
+				"value": "White"
+			}, 
+			{
+				"property": "Cover Color",
+				"value": "White"
+			}, 
+			{
+				"property": "Sash Color",
+				"value": "Gold"
+			}
+		]            
+	},
+	{
+		"name": "Table (Round) 48 Inch",
+		"category": "Table",
+		"filter": "tbl",
+		"image_name": "table-round-48-inch.jpg",
+		"list_price": "$8",
+		"attributes" : [
+			{
+				"property": "Table Color",
+				"value": "White"
+			}
+		]            
+	},
+	{
+		"name": "Cake Stands",
+		"category": "Decoration",
+		"filter": "dcr",
+		"image_name": "cake-stands.jpg",
+		"list_price": "Set $20 (Each $8)",
+		"attributes" : [
+			{
+				"property": "Color",
+				"value": "White"
+			}
+		]            
+	},
+	{
+		"name": "Chafers",
+		"category": "Serving",
+		"filter": "srv",
+		"image_name": "chafer.jpg",
+		"list_price": "$8",
+		"attributes" : [
+			{
+				"property": "Material",
+				"value": "Steel"
+			}
+		]            
+	}
+]
+
+
