@@ -130,11 +130,11 @@ body {
 }
 
 .section {
-  margin-top: 120px;
+  margin-top: 50px;
 }
 
 .section-heading {
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 
 .section-heading h2 {
@@ -1153,6 +1153,30 @@ Page Header Style
   color: #fff;
 }
 
+/* 
+---------------------------------------------
+Page Header Style
+--------------------------------------------- 
+*/
+
+.banner-heading {
+  background-image: url(../images/banner-05.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 220px 100px;
+  text-align: center;
+}
+
+.banner-heading span {
+  color: #1e1e1e;
+  font-size: 48px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  display: inline-block;
+  margin-bottom: 60px;
+}
 
 /* 
 ---------------------------------------------
@@ -1368,7 +1392,16 @@ body {
   }
   .contact-content {
     margin-top: -270px;
-  }  
+  }
+  .banner-heading {
+    background-image: url(../images/banner-05.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 100px 100px;
+    text-align: center;
+  }
+    
 }
 
 @media (max-width: 992px) {
