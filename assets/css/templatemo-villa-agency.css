@@ -1366,6 +1366,9 @@ body {
   .header-area .main-nav .nav li:last-child {
     display: none;
   }
+  .contact-content {
+    margin-top: -270px;
+  }  
 }
 
 @media (max-width: 992px) {
