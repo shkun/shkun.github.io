@@ -1279,8 +1279,12 @@ Contact Style
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding: 100px 0px 250px 0px;
+  padding: 20px 0px 250px 0px;
   position: relative;
+}
+
+.contact .section-heading {
+  margin-bottom: 30px;
 }
 
 .contact .section-heading h2 {
@@ -1301,7 +1305,7 @@ Contact Style
 .contact-content .item {
   border-radius: 10px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
-  padding: 35px 30px;
+  padding: 20px 30px;
   background-color: #fff;
 }
 
@@ -1848,7 +1852,7 @@ body {
   }
   .contact-content .email {
     margin-left: 0px;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
   }
   .contact-content #contact-form {
     margin-left: 0px;
