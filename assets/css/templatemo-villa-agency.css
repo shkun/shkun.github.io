@@ -897,14 +897,16 @@ Properties Style
   background-color: #fafafa;
   border-radius: 10px;
   padding: 30px;
-  margin-bottom: 10px;
+  margin: 0 25px 50px 25px;
 }
 
 .properties .item img {
   border-radius: 10px;
-  border-color: black;
-  border-width: 1px;
-  border-style: solid;
+  width: 266px;
+  height: 200px;
+  object-fit: contain;
+  margin: auto;
+  display: block;
 }
 
 .properties .item span.category {
@@ -918,13 +920,15 @@ Properties Style
   margin-top: 25px;
 }
 
-.properties .item h4 {
+.properties .item h5 {
   font-size: 15px;
   text-align: center;
   margin: 25px 0px;
+  border-top: 1px solid #eaeaea;
+  padding-top: 10px;
 }
 
-.properties .item h4 a {
+.properties .item h5 a {
   color: #1e1e1e;
 }
 
@@ -938,10 +942,6 @@ Properties Style
 .properties .item ul li span {
   font-weight: 500;
   color: #1e1e1e;
-}
-
-.properties .item ul {
-  border-bottom: 1px solid #eaeaea;
 }
 
 .properties .item h6 {
